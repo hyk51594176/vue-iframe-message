@@ -1,7 +1,7 @@
 {
   "name": "@weier/vue-iframe-message",
   "version": "0.0.1",
-  "description": "vue iframe postmessage",
+  "description": "window.onmessage事件监听",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
