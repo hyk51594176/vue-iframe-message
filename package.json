@@ -14,6 +14,11 @@
   ],
   "man":  "dist/index.js",
   "author": "51594176@qq.com",
+  "homepage": "http://gitlab.weierai.com/npmModular/vue-iframe-message",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.weierai.com:npmModular/vue-iframe-message.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.0.0",
