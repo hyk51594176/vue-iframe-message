@@ -1,0 +1,27 @@
+{
+  "name": "@weier/vue-iframe-message",
+  "version": "0.0.1",
+  "description": "vue iframe postmessage",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "release": "npm run build && npm publish"
+  },
+  "keywords": [
+    "vue",
+    "iframe",
+    "postmessage"
+  ],
+  "man":  "dist/index.js",
+  "author": "51594176@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "change-case": "^3.0.2",
+    "create-banner": "^1.0.0",
+    "rollup": "^0.65.2",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-uglify": "^5.0.2"
+  }
+}
