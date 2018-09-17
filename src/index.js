@@ -14,25 +14,24 @@ export default {
 
     Vue.mixin({
       created () {
-        const message = this.$options['message']
+        const message = this.$options.message
         if (message) {
           Object.keys(message).forEach((type) => {
             if (typeof message[type] === 'function') {
               listener.push({
                 type,
-                callback: message[type].bind(this)
+                callback: message[type].bind(this),
+                _uid: this._uid
               })
             }
           })
         }
       },
       beforeDestroy () {
-        const message = this.$options['message']
+        const message = this.$options.message
         if (message) {
-          Object.keys(message).forEach((type) => {
-            listener = listener.filter(obj => obj.callback === message[type])
-            delete this.$options.message[type]
-          })
+          listener = listener.filter(obj => obj._uid !== this._uid)
+          delete this.$options.message
         }
       }
     })
