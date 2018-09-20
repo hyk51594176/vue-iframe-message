@@ -13,14 +13,12 @@ const banner = createBanner({
 })
 module.exports = {
   input: 'src/index.js',
-  output: [
-    {
-      banner,
-      name,
-      file: `dist/index.js`,
-      format: 'umd'
-    }
-  ],
+  output: {
+    banner,
+    name,
+    file: `dist/index.js`,
+    format: 'umd'
+  },
   plugins: [
     babel({
       presets: [['@babel/preset-env',

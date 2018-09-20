@@ -1,9 +1,9 @@
 export let _Vue
 const install = Vue => {
-  let listener = []
   if (install.installed && _Vue === Vue) return
   install.installed = true
   _Vue = Vue
+  let listener = []
   window.addEventListener('message', (res) => {
     const {data} = res
     if (data && typeof data === 'object' && data.type) {
