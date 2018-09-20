@@ -1,6 +1,6 @@
 {
   "name": "vue-iframe-message",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "window.onmessage事件监听",
   "main": "index.js",
   "scripts": {
