@@ -1,17 +1,17 @@
-# @weier/vue-iframe-message  
+# vue-iframe-message  
 
 
 ## Install
 
 ```sh
-npm i  @weier/vue-iframe-message
+npm i  vue-iframe-message
 ```
 ## Usage
 
 ```js
 import Vue from 'vue'
 
-import VueIframeMessage from "@weier/vue-iframe-message";
+import VueIframeMessage from "vue-iframe-message";
 
 Vue.use(VueIframeMessage)
 ```
