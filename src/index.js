@@ -2,11 +2,12 @@
 export default {
   install (Vue) {
     let listener = []
-    window.addEventListener('message', ({data}) => {
+    window.addEventListener('message', (res) => {
+      const {data} = res
       if (data && typeof data === 'object' && data.type) {
         listener.forEach(obj => {
           if (data.type === obj.type) {
-            obj.callback(data)
+            obj.callback(res)
           }
         })
       }
