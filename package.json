@@ -12,7 +12,7 @@
     "iframe",
     "postmessage"
   ],
-  "man":  "dist/index.js",
+  "man": "dist/index.js",
   "author": "51594176@qq.com",
   "homepage": "https://github.com/hyk51594176/vue-iframe-message",
   "repository": {
