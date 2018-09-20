@@ -1,5 +1,5 @@
 {
-  "name": "@weier/vue-iframe-message",
+  "name": "vue-iframe-message",
   "version": "0.0.2",
   "description": "window.onmessage事件监听",
   "main": "index.js",
@@ -14,10 +14,10 @@
   ],
   "man":  "dist/index.js",
   "author": "51594176@qq.com",
-  "homepage": "http://gitlab.weierai.com/npmModular/vue-iframe-message",
+  "homepage": "https://github.com/hyk51594176/vue-iframe-message",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.weierai.com:npmModular/vue-iframe-message.git"
+    "url": "git@github.com:hyk51594176/vue-iframe-message.git"
   },
   "license": "ISC",
   "devDependencies": {
